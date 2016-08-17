@@ -1,41 +1,41 @@
 .
-~foo\~
+~{foo\}
 .
-<p>~foo~</p>
-.
-
-.
-~foo bar~
-.
-<p>~foo bar~</p>
+<p>~{foo}</p>
 .
 
 .
-~foo\ bar\ baz~
+~{foo bar}
+.
+<p><sub>foo bar</sub></p>
+.
+
+.
+~{foo\ bar\ baz}
 .
 <p><sub>foo bar baz</sub></p>
 .
 
 .
-~\ foo\ ~
+~{\ foo\ }
 .
 <p><sub> foo </sub></p>
 .
 
 .
-~foo\\\\\\\ bar~
+~{foo\\\\\\\ bar}
 .
 <p><sub>foo\\\ bar</sub></p>
 .
 
 .
-~foo\\\\\\ bar~
+~{foo\\\\\\ bar}
 .
-<p>~foo\\\ bar~</p>
+<p><sub>foo\\\ bar</sub></p>
 .
 
 .
-**~foo~ bar**
+**~{foo} bar**
 .
 <p><strong><sub>foo</sub> bar</strong></p>
 .
@@ -43,7 +43,7 @@
 
 coverage
 .
-*~f
+*~{f
 .
-<p>*~f</p>
+<p>*~{f</p>
 .
