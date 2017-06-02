@@ -1,6 +1,6 @@
 # markdown-it-sub
 
-[![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-sub/master.svg?style=flat)](https://travis-ci.org/markdown-it/markdown-it-sub)
+[![Build Status](https://img.shields.io/travis/GerHobbelt/markdown-it-sub/master.svg?style=flat)](https://travis-ci.org/GerHobbelt/markdown-it-sub)
 [![NPM version](https://img.shields.io/npm/v/markdown-it-sub.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sub)
 [![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sub/master.svg?style=flat)](https://coveralls.io/r/markdown-it/markdown-it-sub?branch=master)
 
