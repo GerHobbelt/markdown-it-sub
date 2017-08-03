@@ -15,7 +15,7 @@ GITHUB_PROJ := https://github.com//markdown-it/${NPM_PACKAGE}
 build: lint browserify test todo
 
 lint:
-	-eslint .
+	eslint .
 
 test: lint
 	mocha
