@@ -1,8 +1,8 @@
 # markdown-it-sub
 
 [![Build Status](https://img.shields.io/travis/GerHobbelt/markdown-it-sub/master.svg?style=flat)](https://travis-ci.org/GerHobbelt/markdown-it-sub)
-[![NPM version](https://img.shields.io/npm/v/markdown-it-sub.svg?style=flat)](https://www.npmjs.org/package/markdown-it-sub)
-[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-sub/master.svg?style=flat)](https://coveralls.io/r/markdown-it/markdown-it-sub?branch=master)
+[![NPM version](https://img.shields.io/npm/v/@gerhobbelt/markdown-it-sub.svg?style=flat)](https://www.npmjs.org/package/@gerhobbelt/markdown-it-sub)
+[![Coverage Status](https://img.shields.io/coveralls/GerHobbelt/markdown-it-sub/master.svg?style=flat)](https://coveralls.io/r/GerHobbelt/markdown-it-sub?branch=master)
 
 > Subscript (`<sub>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
@@ -18,15 +18,15 @@ Markup is based on [pandoc](http://johnmacfarlane.net/pandoc/README.html#supersc
 node.js, browser:
 
 ```bash
-npm install markdown-it-sub --save
-bower install markdown-it-sub --save
+npm install @gerhobbelt/markdown-it-sub --save
+bower install @gerhobbelt/markdown-it-sub --save
 ```
 
 ## Use
 
 ```js
-var md = require('markdown-it')()
-            .use(require('markdown-it-sub'));
+var md = require('@gerhobbelt/markdown-it')()
+            .use(require('@gerhobbelt/markdown-it-sub'));
 
 md.render('H~2~0') // => '<p>H<sub>2</sub>O</p>'
 ```
@@ -37,4 +37,4 @@ package system, module will add itself globally as `window.markdownitSub`.
 
 ## License
 
-[MIT](https://github.com/markdown-it/markdown-it-sub/blob/master/LICENSE)
+[MIT](https://github.com/GerHobbelt/markdown-it-sub/blob/master/LICENSE)
